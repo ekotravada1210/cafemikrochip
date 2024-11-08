@@ -2,10 +2,10 @@
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
-const char* defaultSSID = "Eko's Galaxy A52s 5G";
-const char* defaultPassword = "travada";
-//const char* ssid = "REKTORAT";
-//const char* password = "pasimdakota167";
+const char* defaultSSID = "";
+const char* defaultPassword = "";
+//const char* ssid = "";
+//const char* password = "";
 
 Servo servo_4;
 WiFiServer server(80);
